@@ -1,21 +1,17 @@
 
 
-
 ### GET ALL CONTACTS
 GET http://localhost:3000/users
-
 
 ### GET ONLY ONE 
 GET http://localhost:3000/users/672fbfeeddcafd0191201dfe
 
 
-
-
 ### GET ALL CONTACTS ON RENDER
-GET http://localhost:3000/users
+GET https://project1-et34.onrender.com/users
 
 
 ### GET ONLY ONE ON RENDER
-GET http://localhost:3000/users/672fbfeeddcafd0191201dfe
+GET https://project1-et34.onrender.com/users/673698ffca2d411bf1c69aa9
 
 
