@@ -1,0 +1,21 @@
+
+
+
+### GET ALL CONTACTS
+GET http://localhost:3000/users
+
+
+### GET ONLY ONE 
+GET http://localhost:3000/users/672fbfeeddcafd0191201dfe
+
+
+
+
+### GET ALL CONTACTS ON RENDER
+GET http://localhost:3000/users
+
+
+### GET ONLY ONE ON RENDER
+GET http://localhost:3000/users/672fbfeeddcafd0191201dfe
+
+
