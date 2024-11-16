@@ -4,7 +4,43 @@
 GET http://localhost:3000/users
 
 ### GET ONLY ONE 
-GET http://localhost:3000/users/672fbfeeddcafd0191201dfe
+GET http://localhost:3000/users/67369941ca2d411bf1c69aab
+
+### CREATE NEW CONTACT 
+POST http://localhost:3000/users/
+content-type: application/json
+
+{
+    "firstName": "Joaquin",
+    "lastName": "Tapia",
+    "email": "joaco@yahoo.com",
+    "favoriteColor": "black",
+    "birthday": "1999-05-14"
+}
+
+
+### UPDATE CONTACT
+PUT http://localhost:3000/users/6738249d96ef007d716e2717
+content-type: application/json
+
+{
+   "firstName": "Joaquin3",
+    "lastName": "Tapia3",
+    "email": "joaco3@yahoo.com",
+    "favoriteColor": "black",
+    "birthday": "1999-05-14"
+}
+
+
+
+### DELETE CONTACT 
+DELETE http://localhost:3000/users/6738249d96ef007d716e2717
+
+
+
+
+
+
 
 
 ### GET ALL CONTACTS ON RENDER
@@ -13,5 +49,6 @@ GET https://project1-et34.onrender.com/users
 
 ### GET ONLY ONE ON RENDER
 GET https://project1-et34.onrender.com/users/673698ffca2d411bf1c69aa9
+
 
 
