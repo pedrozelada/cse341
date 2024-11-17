@@ -52,3 +52,27 @@ GET https://project1-et34.onrender.com/users/673698ffca2d411bf1c69aa9
 
 
 
+### CREATE NEW CONTACT ON RENDER
+POST https://project1-et34.onrender.com/users/
+content-type: application/json
+
+{
+    "firstName": "Joaquin",
+    "lastName": "Tapia",
+    "email": "joaco@yahoo.com",
+    "favoriteColor": "black",
+    "birthday": "1999-05-14"
+}
+
+
+### UPDATE CONTACT ON RENDER
+PUT https://project1-et34.onrender.com/users/673940265c30bd12c1fe7300
+content-type: application/json
+
+{
+   "firstName": "Joaquin3",
+    "lastName": "Tapia3",
+    "email": "joaco3@yahoo.com",
+    "favoriteColor": "black",
+    "birthday": "1999-05-14"
+}
